@@ -2,7 +2,7 @@ use std::collections::HashMap;
 
 pub fn run() {
     println!("========");
-    println!("Excel sheet column title");
+    println!("Contains duplicate");
     println!("{:?}", contains_duplicate(vec![1, 2, 3, 2]));
     println!("========");
 }
