@@ -2,6 +2,7 @@ pub mod contains_duplicate;
 pub mod excel_sheet_column_title;
 pub mod find_all_duplicates;
 pub mod find_disappeared_in_array;
+pub mod find_missing_number;
 pub mod find_unique_binary_strings;
 pub mod maximum_subarray;
 pub mod two_sum;
@@ -17,4 +18,5 @@ fn main() {
     find_all_duplicates::run();
     find_disappeared_in_array::run();
     find_unique_binary_strings::run();
+    find_missing_number::run();
 }
