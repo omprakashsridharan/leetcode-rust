@@ -1,6 +1,6 @@
 pub fn run() {
     println!("========");
-    println!("disappeared subarray");
+    println!("Disappeared subarray");
     println!("{:?}", find_disappeared_numbers(vec![4, 2, 2, 1]));
     println!("========");
 }
