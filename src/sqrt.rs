@@ -1,7 +1,7 @@
 pub fn run() {
     println!("========");
     println!("Sqrt(x)");
-    println!("{:?}", my_sqrt(2147395600));
+    println!("{:?}", my_sqrt(8));
     println!("========");
 }
 
@@ -16,6 +16,7 @@ pub fn my_sqrt(x: i32) -> i32 {
     let mut temp: i128 = 0;
     while left <= right {
         mid = (left + (right - left) / 2);
+        println!("mid {}", mid);
         temp = mid as i128 * mid as i128;
         if temp == x as i128 {
             return mid;
